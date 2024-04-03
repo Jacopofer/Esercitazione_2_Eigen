@@ -44,13 +44,13 @@ int main()
     cout << "QR:"<< endl;
 
     cout << "Soluzione del primo sistema: " << scientific << setprecision(1) << x1.transpose() << endl;
-    cout << "Errrore relativo del primo sistema: " << rel_err1 << endl;
+    cout << "Errore relativo del primo sistema: " << rel_err1 << endl;
 
     cout << "Soluzione del secondo sistema: " << scientific << setprecision(1) << x2.transpose() << endl;
-    cout << "Errrore relativo del secondo sistema: " << rel_err2 << endl;
+    cout << "Errore relativo del secondo sistema: " << rel_err2 << endl;
 
     cout << "Soluzione del terzo sistema: " << scientific << setprecision(1) << x3.transpose() << endl;
-    cout << "Errrore relativo del terzo sistema: " << rel_err3 << endl;
+    cout << "Errore relativo del terzo sistema: " << rel_err3 << endl;
 
     //METODO PALU
 
@@ -69,13 +69,13 @@ int main()
     cout << "PALU:" << endl;
 
     cout << "Soluzione del primo sistema: " << scientific << setprecision(1) << y1.transpose() << endl;
-    cout << "Errrore relativo del primo sistema: " << err_rel1 << endl;
+    cout << "Errore relativo del primo sistema: " << err_rel1 << endl;
 
     cout << "Soluzione del secondo sistema: " << scientific << setprecision(1) << y2.transpose() << endl;
-    cout << "Errrore relativo del secondo sistema: " << err_rel2 << endl;
+    cout << "Errore relativo del secondo sistema: " << err_rel2 << endl;
 
     cout << "Soluzione del terzo sistema: " << scientific << setprecision(1) << y3.transpose() << endl;
-    cout << "Errrore relativo del terzo sistema: " << err_rel3 << endl;
+    cout << "Errore relativo del terzo sistema: " << err_rel3 << endl;
 
     return 0;
 }
